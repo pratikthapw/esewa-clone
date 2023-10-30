@@ -4,9 +4,11 @@ import NavBar from "./components/Nav";
 function App() {
   return (
     <>
-      <div className="">
+      <div className="d-flex flex-column vh-100 justify-content-between">
         <NavBar />
-        {/* <Footer /> */}
+        <div className="mt-auto">
+          <Footer />
+        </div>
       </div>
     </>
   );
